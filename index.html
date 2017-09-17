@@ -1,0 +1,38 @@
+<head>
+    <title> Nicolas Mitchell (now in website form) </title>
+    <link rel = "stylesheet" href = "style.css">
+    
+</head>
+
+<body>
+    <audio id = "musicPlayer" autoplay = "autoplay"><source src = "elevator.mp3" /> </audio>
+    <div class = "centerpiece">
+        <h1>
+            Welcome! I'm sorry, but this site is currently under construction. Please come back later.
+        </h1>
+        <a href = "https://github.com/nicomitchell">GitHub</a>
+        | 
+        <a href = "https://www.linkedin.com/in/nicolas-mitchell-b22185149/">LinkedIn</a>
+    </div>
+    <script>
+        var audio = document.getElementById("musicPlayer");
+            var playing = true;
+            function toggleAudio() {
+                if (playing) {
+                    audio.pause();
+                    playing = false;
+                    document.getElementById("musicButton").innerHTML = "Music off";
+                } else {
+                    audio.play();
+                    playing = true;
+                    document.getElementById("musicButton").innerHTML = "Music on";
+
+                }
+            }
+    </script>
+    <h2>
+    <div id = "musicButton" onclick ="toggleAudio()">
+        Music on
+    </div>
+    </h2>
+</body>
