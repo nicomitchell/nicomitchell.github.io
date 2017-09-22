@@ -14,22 +14,7 @@
         | 
         <a href = "https://www.linkedin.com/in/nicolas-mitchell-b22185149/">LinkedIn</a>
     </div>
-    <script>
-        var audio = document.getElementById("musicPlayer");
-            var playing = true;
-            function toggleAudio() {
-                if (playing) {
-                    audio.pause();
-                    playing = false;
-                    document.getElementById("musicButton").innerHTML = "Music off";
-                } else {
-                    audio.play();
-                    playing = true;
-                    document.getElementById("musicButton").innerHTML = "Music on";
-
-                }
-            }
-    </script>
+    <script src ="musicPlayer.js"></script>
     <h2>
     <div id = "musicButton" onclick ="toggleAudio()">
         Music on
