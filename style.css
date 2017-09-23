@@ -7,22 +7,20 @@
     width: 80%;
     text-align: center;
     margin: auto;
-    font-family: sans-serif;
+    font-family: Montserrat, sans-serif;
     border-style: inset;
     vertical-align: middle
 }
-a, h1 {
-   background-color: aquamarine;
-}
 
 
-* {
+
+body {
     background-color: coral;
 }
 
 #musicButton {
     color: darkblue;
-    font-family: sans-serif;
+    font-family: Montserrat, sans-serif;
     border-radius: 20px;
     background-color:aquamarine;
     border: 10px;

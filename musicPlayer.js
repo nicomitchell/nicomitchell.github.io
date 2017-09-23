@@ -1,5 +1,5 @@
 var audio = document.getElementById("musicPlayer");
-var playing = true;
+var playing = false;
 function toggleAudio() {
     if (playing) {
         audio.pause();
