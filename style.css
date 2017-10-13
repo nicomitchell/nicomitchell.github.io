@@ -21,24 +21,17 @@
     border-radius: 5px;
     margin: auto;
 }
-
+table {
+    margin: auto;
+}
 div td {
-    padding: 20px;;    
+    padding: 22px;
     border: 3px inset darkblue;
     border-radius: 5px;
     background-color: aquamarine;
     color: darkblue;
     font-family: Montserrat, sans-serif;
     border-collapse: collapse;
-}
-td a {
-    display: block;
-    height: 100%;
-}
-div td hover{
-    background-color: darkblue;
-    color: aquamarine;
-    border: outset;
 }
 
 
