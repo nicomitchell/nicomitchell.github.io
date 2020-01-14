@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/nicomitchell/nicomitchell.github.io/issues"
   },
-  "homepage": "https://github.com/nicomitchell/nicomitchell.github.io#readme",
+  "homepage": "http://nicomitchell.github.io",
   "devDependencies": {
     "@babel/cli": "^7.1.0",
     "@babel/core": "^7.1.0",
