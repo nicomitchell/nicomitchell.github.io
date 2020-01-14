@@ -1,0 +1,19 @@
+{
+  "name": "nicomitchell.github.io",
+  "version": "0.0.1",
+  "description": "Personal Site",
+  "main": "public/index.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicomitchell/nicomitchell.github.io.git"
+  },
+  "author": "Nicolas Mitchell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicomitchell/nicomitchell.github.io/issues"
+  },
+  "homepage": "https://github.com/nicomitchell/nicomitchell.github.io#readme"
+}
