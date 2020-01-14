@@ -7,14 +7,37 @@ import history from '../modules/history';
 
 
 class App extends Component {
+
+
     render() {
+        history.push("/")
         return (
             <div className="App">
-                <Box background="#084068">
-                    <Box fontFamily="Roboto" color="#FFFFFF"> Hello, World! </Box>
-                    <Icon name="github" width="100px" fill="#55EFC4" />
-                    <Icon name="linkedin" width="100px" fill="#55ECC4" />
-                </Box>
+                <Router history={history}>
+                    <Switch>
+                        <Route path="/">
+                            <Box
+                                background="#000044"
+                                fontWeight="thick"
+                                color="#FFFFFF"
+                                fontFamily="Roboto"
+                                padding="20px"
+                                fontSize="50px"
+                            >
+                                Nicolas Mitchell
+                            </Box>
+                            <Box background="#084068" fontFamily="Roboto" color="#FFFFFF" paddingX="20px" paddingY="100px" marginX="20%" marginY="50px">
+                                <Box marginX="25%">
+                                    <h1> This website is under construction! </h1>
+                                </Box>
+                                <Box marginX="3%">
+                                    <Icon name="github" width="100px" fill="#55EFC4" />
+                                    <Icon name="linkedin" width="100px" fill="#55ECC4" />
+                                </Box>
+                            </Box>
+                        </Route>
+                    </Switch>
+                </Router>
             </div>
         );
     }

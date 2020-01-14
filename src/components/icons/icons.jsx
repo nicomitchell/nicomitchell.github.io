@@ -1,20 +1,7 @@
 import React from "react";
 
-const getViewBox = name => {
-    switch (name) {
-        case "phone":
-            return "0 0 32 33";
-        case "message":
-            return "0 0 38 34";
-        case "envelope":
-            return "0 0 40 26";
-        case "trash":
-            return "0 0 13.5 17.5";
-        case "wifi":
-            return "0 0 12 9";
-        default:
-            return "0 0 32 32";
-    }
+const getViewBox = () => {
+    return "0 0 32 32";
 };
 
 const getPath = (name, props) => {
@@ -30,7 +17,7 @@ const getPath = (name, props) => {
             return (
                 <path
                     {...props}
-                    d="M 22.8196 15.7456C 22.0005 16.5862 20.9038 17.0508 19.7317 17.0542C 18.5632 17.0444 17.46 16.5994 16.6362 15.7646L 1.09009 0L 38.1626 0L 22.8196 15.7456ZM 0 1.06567L 11.2952 12.5818L 0 24.1392L 0 1.06567ZM 27.9519 12.623L 39.2878 24.1233L 39.2878 1.06567L 27.9519 12.623ZM 23.7844 16.9265L 27.0105 13.6885L 38.1833 25.082L 1.10547 25.082L 12.4006 13.6885L 15.6772 16.9512C 16.7539 18.0415 18.1877 18.6418 19.7185 18.6418L 19.7363 18.6418C 21.2734 18.6375 22.7109 18.0281 23.7844 16.9265Z"
+                    d="M173.871,177.097c-2.641,1.936-5.756,2.903-8.87,2.903c-3.116,0-6.23-0.967-8.871-2.903L30,84.602   L0.001,62.603L0,275.001c0.001,8.284,6.716,15,15,15L315.001,290c8.285,0,15-6.716,15-14.999V62.602l-30.001,22L173.871,177.097z"
                 />
             );
         case "linkedin":
@@ -67,7 +54,7 @@ const Icon = ({
             height={height}
             className={className}
             xmlns="http://www.w3.org/2000/svg"
-            viewBox={viewBox || getViewBox(name)}
+            viewBox={viewBox || getViewBox()}
             xmlnsXlink="http://www.w3.org/1999/xlink"
         >
             {getPath(name, { fill })}
