@@ -26,19 +26,19 @@ class App extends Component {
                             >
                                 Nicolas Mitchell
                             </Box>
-                            <Box background="#084068" fontFamily="Roboto" color="#FFFFFF" paddingX="20px" paddingY="100px" marginX="20%" marginY="50px">
+                            <Box background="#084068" fontFamily="Roboto" color="#FFFFFF" paddingX="20px" paddingY="100px" maxWidth="60%" marginX="auto" marginY="50px">
                                 <Box marginX="25%">
                                     <h1> This website is under construction! </h1>
                                 </Box>
-                                <Box marginX="3%">
-                                    <Icon name="github" width="100px" fill="#55EFC4" />
-                                    <Icon name="linkedin" width="100px" fill="#55ECC4" />
+                                <Box marginX="auto" maxWidth="200px">
+                                    <a href="https://github.com/nicomitchell"><Icon name="github" width="100px" fill="#55EFC4" /></a>
+                                    <a href="https://www.linkedin.com/in/nicolas-mitchell-b22185149/"><Icon name="linkedin" width="100px" fill="#55ECC4" /></a>
                                 </Box>
                             </Box>
                         </Route>
                     </Switch>
                 </Router>
-            </div>
+            </div >
         );
     }
 }
