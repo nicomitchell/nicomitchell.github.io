@@ -7,24 +7,29 @@ import history from '../modules/history';
 
 
 class App extends Component {
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            lang: "EN",
+        };
+
+    }
 
 
     render() {
         history.push("/")
+        const { lang } = this.state;
         return (
             <div className="App">
                 <Router history={history}>
                     <Switch>
                         <Route path="/">
-                            <Box
-                                background="#000044"
-                                fontWeight="thick"
-                                color="#FFFFFF"
-                                fontFamily="Roboto"
-                                padding="20px"
-                                fontSize="50px"
-                            >
-                                Nicolas Mitchell
+                            <Box background="#000044" color="#FFFFFF" padding="20px">
+                                <Box marginLeft="90%" fontFamily="Roboto" fontSize="12px"> <Box onClick={() => this.setState({ lang: "EN" })}>EN</Box> | ES | PR </Box>
+                                <Box fontWeight="thick" fontFamily="Roboto" fontSize="50px">
+                                    Nicolas Mitchell
+                                </Box>
                             </Box>
                             <Box background="#084068" fontFamily="Roboto" color="#FFFFFF" paddingX="20px" paddingY="100px" maxWidth="60%" marginX="auto" marginY="50px">
                                 <Box marginX="25%">
