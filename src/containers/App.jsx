@@ -15,8 +15,16 @@ class App extends Component {
         };
 
     }
-
-
+    textMap = {
+        "EN": "This website is under construction!",
+        "ES": "Este sitio está en construcción!",
+        "PR": "Este site está em construção!"
+    }
+    textMap2 = {
+        "EN": "View my resume",
+        "ES": "Vea mi currículum",
+        "PR": "Olhe o meu currículo"
+    }
     render() {
         history.push("/")
         const { lang } = this.state;
@@ -25,15 +33,19 @@ class App extends Component {
                 <Router history={history}>
                     <Switch>
                         <Route path="/">
-                            <Box background="#000044" color="#FFFFFF" padding="20px">
-                                <Box marginLeft="90%" fontFamily="Roboto" fontSize="12px"> <Box onClick={() => this.setState({ lang: "EN" })}>EN</Box> | ES | PR </Box>
+                            <Box background="#000044" color="#FFFFFF" padding="20px" >
                                 <Box fontWeight="thick" fontFamily="Roboto" fontSize="50px">
+                                    <Box style={{ flexDirection: 'row', justifyContent: 'flex-end' }} fontFamily="Roboto" fontSize="12px" display="flex">
+                                        <Box color={lang == "EN" ? "#44DBB3" : "#FFFFFF"} onClick={() => this.setState({ lang: "EN" })}>EN</Box>
+                                        |<Box color={lang == "ES" ? "#44DBB3" : "#FFFFFF"} onClick={() => this.setState({ lang: "ES" })}>ES</Box>
+                                        |<Box color={lang == "PR" ? "#44DBB3" : "#FFFFFF"} onClick={() => this.setState({ lang: "PR" })}>PR</Box>  </Box>
                                     Nicolas Mitchell
                                 </Box>
                             </Box>
                             <Box background="#084068" fontFamily="Roboto" color="#FFFFFF" paddingX="20px" paddingY="100px" maxWidth="60%" marginX="auto" marginY="50px">
-                                <Box marginX="25%">
-                                    <h1> This website is under construction! </h1>
+                                <Box style={{ textAlign: 'center' }}>
+                                    <h1> {this.textMap[lang]} </h1>
+                                    <h2><a href="http://nico-mitchell.com/resume/resume-plain.pdf">{this.textMap2[lang]}</a></h2>
                                 </Box>
                                 <Box marginX="auto" maxWidth="200px">
                                     <a href="https://github.com/nicomitchell"><Icon name="github" width="100px" fill="#55EFC4" /></a>
