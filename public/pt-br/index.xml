@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nico Mitchell</title>
+    <link>http://www.nico-mitchell.com/pt-br/</link>
+    <description>Recent content on Nico Mitchell</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="http://www.nico-mitchell.com/pt-br/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blog</title>
+      <link>http://www.nico-mitchell.com/pt-br/posts/</link>
+      <pubDate>Wed, 07 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.nico-mitchell.com/pt-br/posts/</guid>
+      <description>Fique ligado, esta página estará disponível em breve!    </description>
+    </item>
+    
+    <item>
+      <title>Contatar-me</title>
+      <link>http://www.nico-mitchell.com/pt-br/contact/</link>
+      <pubDate>Wed, 07 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.nico-mitchell.com/pt-br/contact/</guid>
+      <description>Envie-me um email: nicomitchell502@gmail.com
+Minhas contas de github | facebook | linkedin | twitter</description>
+    </item>
+    
+    <item>
+      <title>Projetos</title>
+      <link>http://www.nico-mitchell.com/pt-br/projects/</link>
+      <pubDate>Wed, 07 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.nico-mitchell.com/pt-br/projects/</guid>
+      <description>Fique ligado, esta página estará disponível em breve!    </description>
+    </item>
+    
+    <item>
+      <title>Sobre mim</title>
+      <link>http://www.nico-mitchell.com/pt-br/about/</link>
+      <pubDate>Wed, 07 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.nico-mitchell.com/pt-br/about/</guid>
+      <description>Nascei na Cidade de Nova York e crescei no Louisville, Kentucky. Agora estou trabalhando remotamente na minha segunda rotação em SAP Next Talent, uma programa rotacional pelos novos graduados. Meu trabalho presentemente é em uma estrutura de testes para alguns microservicios. Eu me formei no Maio de 2020 da Universidade de Louisville com graduacão na Ciência e Engenharia de Computação.
+Eu gosto de contribuir aos projetos de código aberto quando posso.</description>
+    </item>
+    
+  </channel>
+</rss>

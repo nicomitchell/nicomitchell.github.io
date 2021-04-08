@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nico Mitchell</title>
+    <link>http://www.nico-mitchell.com/es/</link>
+    <description>Recent content on Nico Mitchell</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="http://www.nico-mitchell.com/es/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blog</title>
+      <link>http://www.nico-mitchell.com/es/posts/</link>
+      <pubDate>Wed, 07 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.nico-mitchell.com/es/posts/</guid>
+      <description>Mantenganse al tanto, esta página llegará pronto!    </description>
+    </item>
+    
+    <item>
+      <title>Contáctame</title>
+      <link>http://www.nico-mitchell.com/es/contact/</link>
+      <pubDate>Wed, 07 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.nico-mitchell.com/es/contact/</guid>
+      <description>Envíame un correo electrónico: nicomitchell502@gmail.com
+Buscame en github | facebook | linkedin | twitter</description>
+    </item>
+    
+    <item>
+      <title>Proyectos</title>
+      <link>http://www.nico-mitchell.com/es/projects/</link>
+      <pubDate>Wed, 07 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.nico-mitchell.com/es/projects/</guid>
+      <description>Mantenganse al tanto, esta página llegará pronto!    </description>
+    </item>
+    
+    <item>
+      <title>Sobre mi</title>
+      <link>http://www.nico-mitchell.com/es/about/</link>
+      <pubDate>Wed, 07 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.nico-mitchell.com/es/about/</guid>
+      <description>Nací en la ciudad de Nueva York y crecí en Louisville, Kentucky. Trabajo de forma remota para SAP, en un programa rotativo rotacional para recién graduados llamado SAP Next Talent. Mi trabajo hoy en día se relaciona con la automatización de pruebas para microservicios. Me gradué de la Universidad de Louisville en Mayo de 2020 con un título en Ciéncias de la Computación e Ingeniería Informática.
+Cuando puedo, intento contribuir a los proyectos de código abierto.</description>
+    </item>
+    
+  </channel>
+</rss>
