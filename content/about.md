@@ -11,4 +11,4 @@ I like contributing to open source projects in my free time. My favorite program
 
 In my free time I like to rock climb, go to the gym, play video games, play the guitar, and learn languages. Right now I speak English, Spanish, and Portuguese (BR).
 
-Check out my [resume](documents/resume-plain.pdf)!
+Check out my [resume](../documents/resume-plain.pdf)!

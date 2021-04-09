@@ -177,6 +177,11 @@ name = "Contato"
 weight = 5
 url = "contact/"
 
+[[languages.pt-br.menu.main]]
+name = "Currículo"
+weight = 7
+url = "../documents/resume-plain.pdf"
+
 [languages.es]
 languageName = ":es:"
 title = "Nico Mitchell"
@@ -207,3 +212,8 @@ url = "projects/"
 name = "Contacto"
 weight = 5
 url = "contact/"
+
+[[languages.es.menu.main]]
+name = "Currículum"
+weight = 7
+url = "../documents/resume-plain.pdf"

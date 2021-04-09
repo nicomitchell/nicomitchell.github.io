@@ -17,4 +17,4 @@ mas eu também estou familiarizado com C, C++, Python, e Java.
 No meu tempo livre, eu gosto de fazer escalada, jogar videojogos, tocar violão, e 
 aprender linguas novas. Eu falo inglês, espanhol, e português brasileiro.
 
-Veja o [meu currículo](documents/resume-plain.pdf)!
+Veja o [meu currículo](../documents/resume-plain.pdf)!
