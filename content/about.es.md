@@ -16,4 +16,4 @@ familiarizado con C, C++, Python, y Java.
 En mi tiempo libre, me gusta ir a escalar, jugar videojuegos, tocar la guitarra, y aprender nuevos idiomas. Hablo inglés, español, y
 portugués brasileño.
 
-Vea [mi currículum](documents/resume-plain.pdf)!
+Vea [mi currículum](../../documents/resume-nicomitchell-public.pdf)!
