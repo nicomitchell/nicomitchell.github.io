@@ -17,7 +17,7 @@ description = "Nico Mitchell's personal website"
 keywords = "blog,developer,personal"
 info = "Backend developer. I'm a fan of cloud, containers, and concurrency."
 avatarURL = "images/pfp.jpg"
-resume = "documents/resume-plain.pdf"
+resume = "documents/resume-nicomitchell-public.pdf"
 footerContent = "Something wrong with the site or translation? Send me an email at nicomitchell502@gmail.com."
 dateFormat = "January 2, 2006"
 hideFooter = false
@@ -143,7 +143,7 @@ url = "contact/"
 [[languages.en.menu.main]]
 name = "Resume"
 weight = 7
-url = "./documents/resume-plain.pdf"
+url = "./documents/resume-nicomitchell-public.pdf"
 
 
 [languages.pt-br]
@@ -180,7 +180,7 @@ url = "contact/"
 [[languages.pt-br.menu.main]]
 name = "Currículo"
 weight = 7
-url = "../documents/resume-plain.pdf"
+url = "../documents/resume-nicomitchell-public.pdf"
 
 [languages.es]
 languageName = ":es:"
@@ -216,4 +216,4 @@ url = "contact/"
 [[languages.es.menu.main]]
 name = "Currículum"
 weight = 7
-url = "../documents/resume-plain.pdf"
+url = "../documents/resume-nicomitchell-public.pdf"

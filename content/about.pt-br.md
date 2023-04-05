@@ -6,10 +6,9 @@
     author: "Nico Mitchell" 
 ---
 
-Nascei na Cidade de Nova York e crescei no Louisville, Kentucky. Agora estou trabalhando remotamente 
-na minha segunda rotação em SAP Next Talent, uma programa rotacional pelos novos  graduados. Meu trabalho 
-presentemente é em uma estrutura de testes para alguns microservicios. Eu me formei no Maio de 
-2020 da Universidade de Louisville com graduacão na Ciência e Engenharia de Computação.
+Nascei na Cidade de Nova York e crescei no Louisville, Kentucky. Agora estou trabalhando 
+para Splunk em um producto novo da cíber-segurança. Eu me formei no ano 2020 
+da Universidade de Louisville com graduacão na Ciência e Engenharia de Computação.
 
 Eu gosto de contribuir aos projetos de código aberto quando posso. Minha linguagem preferido é Go, 
 mas eu também estou familiarizado com C, C++, Python, e Java.
